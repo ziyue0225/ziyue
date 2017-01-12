@@ -458,7 +458,7 @@ def geneticOptimize(item = itemList, popsize = 100,
         while True:
             c = rnd.randint(0,topelite-1)
             new = crossover(pop[c])
-            print 'new--->',new
+           # print 'new--->',new
             pop.append(new)
             if len(pop) >= popsize:
                 break
